@@ -1,0 +1,10 @@
+
+
+CREATE TABLE PIX(
+
+cpf VARCHAR(11) NOT NULL,
+nome VARCHAR(100) NOT NULL,
+instituicao VARCHAR(10) NOT NULL,
+chave VARCHAR(100),
+PRIMARY KEY(cpf)
+);
